@@ -1,9 +1,9 @@
-const next = document.querySelector('a.coreSpriteRightPaginationArrow');
+const next = document.querySelector('div._aaqh > button._abl-');
 var counter =0;
 
 function doLike(){
-  const like_btn = document.querySelector('article > div.eo2As > section.ltpMr.Slqrh > span.fr66n > button');
-  const isLiked = document.querySelector('article > div.eo2As > section.ltpMr.Slqrh > span.fr66n > button > div.QBdPU > span> svg').ariaLabel;
+  const like_btn = document.querySelector('span > button._abl-');
+  const isLiked = document.querySelector('button._abl- > div._abm0._abm1 > svg._ab6-').ariaLabel
   if (like_btn){
     if (isLiked === 'Curtir' ){
       like_btn.click();
